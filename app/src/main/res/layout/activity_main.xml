@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_screen"
+    android:layout_width="360dp"
+    android:layout_height="640dp"
+    android:clipToOutline="true"
+    android:background="#FC5959">
+
+    <TextView
+        android:id="@+id/schalendar"
+        android:layout_width="292dp"
+        android:layout_height="175dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:text="@string/schalendar"
+        android:textAppearance="@style/schalendar"
+        android:gravity="center_horizontal|top" />
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/button"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="349dp"
+        android:clipToOutline="true"
+        android:background="@drawable/button"
+        android:elevation="21dp"
+        />
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="130dp"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-34dp"
+        android:background="#FFFFFF"
+        />
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="155dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="283dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-25dp"
+        android:background="#FFFFFF"
+        />
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/ellipse_3"
+
+
+        />
+
+
+    <View
+        android:id="@+id/polygon_1"
+        android:layout_width="92dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101.45dp"
+        android:background="#FFFFFF"
+        />
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="163.8dp"
+        android:layout_height="55.77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="327.38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="517dp"
+        android:background="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/the_product"
+        android:layout_width="250dp"
+        android:layout_height="149dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:text="@string/the_product"
+        android:textAppearance="@style/the_product"
+        android:gravity="center_horizontal|top"
+        />
+    <View
+        android:id="@+id/star_1"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="231dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44.97dp"
+        android:background="#FFFFFF"
+        />
+    <View
+        android:id="@+id/polygon_2"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="301dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="421.94dp"
+        android:background="#FFFFFF"
+        />
+</RelativeLayout>
+
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <!--
+      Font family: Inter
+      Line height: 19sp
+      -->
+
+
