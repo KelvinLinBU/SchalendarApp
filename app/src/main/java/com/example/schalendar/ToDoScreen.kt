@@ -27,8 +27,8 @@ import androidx.compose.ui.unit.sp
 fun ToDoScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
-            .requiredWidth(width = 360.dp)
-            .requiredHeight(height = 640.dp)
+            .requiredWidth(width = 393.dp)
+            .requiredHeight(height = 851.dp)
             .background(color = Color(0xfffc5959))
     ) {
         Button(
@@ -183,7 +183,7 @@ fun ToDoScreen(modifier: Modifier = Modifier) {
     }
 }
 
-@Preview(widthDp = 360, heightDp = 640)
+@Preview(widthDp = 393, heightDp = 851)
 @Composable
 private fun ToDoPreview() {
     ToDoScreen()
